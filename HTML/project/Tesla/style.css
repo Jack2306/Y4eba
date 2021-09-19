@@ -28,19 +28,3 @@ color: rgb(250,0,0);
 font-size:24px;
 font-family: comic sans ms;
 }
-p:last-child:first-letter,p:nth-last-child(2):first-letter{margin-left:0px;}
-p:last-child, p:nth-last-child(2) {
-	
-	display: block;
-	width:170px;
-	height:20px;
-	overflow:hidden;
-	border: 1px solid black;
-	border-radius:5px;
-	background:linear-gradient(to top, rgb(30,30,140),rgb(60,60,250));
-	color:#fff;
-	margin:auto;
-	padding:10px;
-	text-align:center;
-	cursor:pointer;
-}
