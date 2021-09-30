@@ -22,24 +22,24 @@
                 </p>
             <label>
                 Введите имя
-                <input type="text" name="username">
+                <input required type="text" name="username">
             </label>
                 
                     <label>
                         Введите номер
-                       <input type="number" name="nomer"> 
+                       <input required type="number" name="nomer"> 
                     </label>
                 <label>
-                    Выберите комплектацию
-                    <select name="Comlectacia">
-                        <option disabled select >Выберите комплектацию</option>
-                        <option value="Long Range AWD">Long Range AWD</option>
-                        <option value="Perfomance">Perfomance</option>
-                    </select>
+                    Long Range AWD
+                    <input name="model" type="radio" value="Long Range AWD">
                 </label>
+                <label>
+                    Perfomance
+                    <input name="model" type="radio" value="Perfomance">
+                </label>
+                <input type="reset" value="Сброс">
                 <input type="submit" value="Заказать">
         </fieldset>
     </form>
-    
 </body>
 </html>
