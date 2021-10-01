@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registracia</title>
+</head>
+<body>
+    <form name="Registracia" action="">
+        <fieldset>
+            <legend>
+            Регистрационная форма пользователя
+            </legend>
+                <label>
+                Имя:
+                    <input type="text" name="username" required>
+                </label> 
+                <p>
+                   <label>
+                    Укажите возраст:
+                    <select name="Vozrast" required> 
+                        <option disabled>Укажите возраст</option>
+                        <option value=10-15">10-15лет</option>
+                        <option value="15-20">15-20лет</option>
+                        <option value="20-30">20-30лет</option>
+                        <option value="30-40">30-40лет</option>
+                        <option value="old">старше 40лет</option>
+                    </select>
+                </label> 
+                </p>
+                <p>
+                    Укажите пол :
+                    <label>
+                        мужской
+                        <input type="radio" name="pol" value="M">
+                    </label>
+                    <label>
+                        женский
+                        <input type="radio" name="pol" value="W">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Страна проживания:
+                        <select name="Strana" required> 
+                            <option disabled>Укажите страну</option>
+                            <option value="RB">Беларусь</option>
+                            <option value="RF">Российская Федерация </option>
+                            <option value="INN">Другое государство</option>  
+                        </select>
+                    </label>  
+                </p>
+                <p>
+                    Владение языками:
+                    <label>
+                        русский
+                        <input type="checkbox" name="yzik" value="russian">
+                    </label>
+                    <label>
+                        белорусский
+                        <input type="checkbox" name="yzik" value="belarussian">
+                    </label>
+                    <label>
+                        английский
+                        <input type="checkbox" name="yzik" value="inglish">
+                    </label>
+                </p>
+                <p>
+                    Фото профиля:
+                    <input type="file" accept=".jpg" name="image">
+                </p>
+                <p>
+                    <label>
+                        Введите логин:
+                            <input type="text" name="login" required>
+                        </label> 
+                </p>
+                <p>
+                    <label>
+                        Введите пароль:
+                            <input type="password" name="password" required>
+                        </label> 
+                </p>
+                <p>
+                    <label>
+                        Повторите пароль:
+                            <input type="password" name="repit password" required>
+                        </label> 
+                </p>
+                <p>
+                    <input type="reset" value="Сброс">
+                    <input type="submit" value="Отправить">
+                </p>
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
