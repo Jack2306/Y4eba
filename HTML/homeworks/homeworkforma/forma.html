@@ -8,8 +8,53 @@
     <h2>
         Запись на курсы
     </h2>
-    <fieldset>
-        
-    </fieldset>
+    <form>
+        <fieldset>
+            <label>
+                Имя:
+                <p>
+                    <input type="text" name="username" required>
+                </p>
+            </label>
+            <label>
+                Язык программирования
+            </label>
+            <p>
+                <label>
+                    <input type="radio" name="yzik" value="C++"> 
+                        C++
+                </label>
+            </p>
+            <p>    
+                <label>
+                    <input type="radio" name="yzik" value="PHP">
+                    PHP
+                </label>
+            </p>
+            <p>    
+                <label>
+                    <input type="radio" name="yzik" value="Python">
+                    Python
+                </label>
+            </p>
+            <p>
+                <label for="dop">Дополнительная информация:</label>
+                <p>
+                    <textarea id="dop" name="Dopinfa">Есть опыт программирования C++</textarea>
+                </p>
+            </p>
+            <p>
+                <label for="secret">Секретное слово</label>
+                <p>
+                    <input required id="secret" type="password" name="secretslovo">    
+                </p>
+            </p>
+            <p>
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Очистить">
+            </p>
+        </fieldset>
+    </form>
+
 </body>
 </html>

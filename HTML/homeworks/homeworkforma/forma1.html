@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parametri car</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                Параметры автомобиля
+            </legend>
+            <label>
+                Марка автомобиля:
+                <input type="text" list="marki" name="marka" required>
+                <datalist id="marki">
+                    <option value="audi">Ауди</option>
+                    <option value="BMW">БМВ</option>
+                    <option value="Mers">Мерседес</option>
+                </datalist>
+            </label>
+            <p>
+                <label>
+                Объём двигателя, см <sup>3</sup>:
+                    <input type="number" required name="V" placeholder="1900">
+                 </label>
+            </p>
+            <p>
+                <label>
+                    Область
+                    <select name="Oblast" required>
+                    <option value="Brest">Брестская</option>
+                    <option value="Minsk">Минская</option>
+                    <option value="Vitebsk">Витебская</option>
+                    <option value="Mogilev">Могилёвская</option>
+                    <option value="Grodno">Гродненская</option>
+                    <option value="Gomel">Гомельская</option>
+                </select>
+                </label>
+            </p>
+            <p>
+                <label>Тип КПП</label>
+                <p>
+                   <label>
+                   <input type="radio" name="tip KPP" value="AVTO">
+                    Автомат
+                    </label> 
+                </p>
+                <p>
+                   <label>
+                    <input type="radio" name="tip KPP" value="MEX">
+                    Механика
+                    </label>
+                </p>    
+            </p>
+            <p>
+               Двигатель
+               <p>
+                  <label>
+                     <input type="checkbox" name="Dvigatel" value="Electro">
+                     Электро
+                  </label>
+               </p>
+               <p>
+                  <label>
+                     <input type="checkbox" name="Dvigatel" value="Dizel">
+                     Дизель
+                  </label>
+               </p>
+               <p>
+                  <label>
+                     <input type="checkbox" name="Dvigatel" value="Benzin">
+                     Бензин
+                  </label>
+               </p>
+               <p>
+                  <label>
+                     <input type="checkbox" name="Dvigatel" value="Propan">
+                     Пропан-бутан
+                  </label>
+               </p>
+               <p>
+                  <label>
+                     <input type="checkbox" name="Dvigatel" value="Metan">
+                     Метан
+                  </label>
+               </p>
+            </p>
+            <p>
+               <label for="opis">Описание:</label>
+               <p>
+                  <textarea id="opis" name="Opisanie">
+                  </textarea>
+               </p>
+            </p>
+            <p>
+               <input type="submit" value="Отправить">
+               <input type="reset" value="Очистить">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
