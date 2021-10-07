@@ -6,6 +6,27 @@
     <title>TESLA</title>
 </head>
 <body>
+   <style>
+      h1 {
+         color:azure;
+      }
+      body {
+         background-image: url(../Tesla/Images/gif-800x600.gif);
+         background-size: 100%;
+      }
+      a {
+         color: rgb(255, 255, 255);
+      }
+      h2 {
+         color: azure;
+      }
+      p {
+         color: azure;
+      }
+      footer {
+         color: azure;
+      }
+   </style>
    <h1 align="center">TESLA</h1>
    <hr>
    <p>
@@ -20,11 +41,17 @@
    <hr>
    <h2>Напишите нам:</h2>
    <form form name="Anketa" autocomplete="off" action="">
-      <fieldset>
+      <!-- <fieldset> -->
          <p>
             <label>
                Имя
-               <input type="text" name="user">
+               <input type="text" name="name" required>
+            </label>
+         </p>
+         <p>
+            <label>
+               Номер телефона
+               <input type="tel" name="tel" required pattern="[0-9]{3}[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}">
             </label>
          </p>
          <p>
@@ -36,7 +63,7 @@
          <p>
             <label>
                Тема
-               <input type="text" name="tema">
+               <input type="text" name="tema" required>
             </label>  
          </p>
          <p>
@@ -66,18 +93,20 @@
                <input type="radio" name="cash" value="3">
             </label>
          </p>
+         <input type="reset" value="Сбросить">
+         <input type="submit" value="Спросить">
       </fieldset>
    </form>
-   <h2>Адрес:</h2>
-   <p>
-      +375 21 266-08-80
-   </p>
-   <p>
-      Беларусь, Витебская область, Орша, улица Мира, 8
-   </p>
-   <p>
-      https://cleverland.by/
-   </p>
+      <h2 align="center">Адрес:</h2>
+      <p align="center">
+         Беларусь, Витебская область, Орша, улица Мира, 8
+      </p>
+      <p align="center">
+         +375 21 266-08-80
+      </p>
+      <p align="center">
+         https://cleverland.by/
+      </p>
    <hr>
    <footer align="center">
       &copy; "Все права защищены"
