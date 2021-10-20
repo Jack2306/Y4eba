@@ -30,6 +30,9 @@
       footer {
          color: azure;
       }
+      table {
+         color: white;
+      }
    </style>
 </head>
 
@@ -51,6 +54,26 @@
    </nav>
    <hr>
    <main>
+      <table border="1" cellspacing="0">
+         <thead>
+            <tr> 
+               <td colspan="2">Напишите нам:</td>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>
+                  <label name="user" for="user">
+                     Имя:
+                  </label>
+               </td>
+               <td>
+                  <input id="user" type="text" name="name" required>
+               </td>
+
+            </tr>
+         </tbody>
+      </table>
       <h2>Напишите нам:</h2>
       <form form name="Anketa" autocomplete="off" action="">
          <!-- <fieldset> -->
