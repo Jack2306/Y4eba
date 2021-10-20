@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>TESLA</title>
-</head>
-<body>
+   <meta charset="UTF-8">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <title>TESLA</title>
    <style>
       h1 {
-         color:azure;
+         color: azure;
       }
+
       body {
          background-image: url(../Tesla/Images/gif-800x600.gif);
          background-size: 100%;
       }
+
       a {
          color: rgb(255, 255, 255);
       }
+
       h2 {
          color: azure;
       }
+
       p {
          color: azure;
       }
+
       footer {
          color: azure;
       }
    </style>
-   <h1 align="center">TESLA</h1>
+</head>
+
+<body>
+   <header>
+      <h1 align="center">TESLA</h1>
+   </header>
    <hr>
-   <p>
-      <a href="index.html">Главная</a>   
-   </p>
-   <p>
-      <a href="katalog.html">Каталог</a>
-   </p>
-   <p>
-      <a href="">Контакты</a>
-   </p>  
+   <nav>
+      <p>
+         <a href="index.html">Главная</a>
+      </p>
+      <p>
+         <a href="katalog.html">Каталог</a>
+      </p>
+      <p>
+         <a href="contakt.html">Контакты</a>
+      </p>
+   </nav>
    <hr>
-   <h2>Напишите нам:</h2>
-   <form form name="Anketa" autocomplete="off" action="">
-      <!-- <fieldset> -->
+   <main>
+      <h2>Напишите нам:</h2>
+      <form form name="Anketa" autocomplete="off" action="">
+         <!-- <fieldset> -->
          <p>
             <label>
                Имя
@@ -58,13 +70,13 @@
             <label>
                Email
                <input type="email" name="email">
-            </label>  
+            </label>
          </p>
          <p>
             <label>
                Тема
                <input type="text" name="tema" required>
-            </label>  
+            </label>
          </p>
          <p>
             Комментарий:<textarea></textarea>
@@ -95,8 +107,8 @@
          </p>
          <input type="reset" value="Сбросить">
          <input type="submit" value="Спросить">
-      </fieldset>
-   </form>
+         </fieldset>
+      </form>
       <h2 align="center">Адрес:</h2>
       <p align="center">
          Беларусь, Витебская область, Орша, улица Мира, 8
@@ -107,9 +119,11 @@
       <p align="center">
          https://cleverland.by/
       </p>
+   </main>
    <hr>
    <footer align="center">
       &copy; "Все права защищены"
    </footer>
 </body>
+
 </html>
