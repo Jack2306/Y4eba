@@ -1,0 +1,13 @@
+p {
+    font-weight: bold;
+}
+ol {
+    font-weight: bold;
+}
+ol li ol li {
+    font-weight: normal;
+}
+ol li ul li {
+    font-weight: bold;
+    font-style: italic;
+}
