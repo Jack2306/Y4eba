@@ -5,7 +5,10 @@
     <title></title>
     <meta charset="utf-8">
     <style>
-        tr:not(p:nth-child(1)) tr:not(:nth-child(2)) td:nth-child(even) {
+        tr:first-child {
+            background-color: white;
+        }
+        tr:not(:nth-child(2)) td:nth-child(even) {
             background-color:#d2e4f7;
         }
         tr:nth-child(2) td:nth-child(odd) {
