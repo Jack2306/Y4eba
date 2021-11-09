@@ -1,0 +1,14 @@
+body {
+    font-size: 30px;
+}
+.V {
+    vertical-align: super;
+    font-size: small;
+}
+.v {
+    vertical-align: sub;
+    font-size: small;
+}
+.A {
+    white-space: pre;;
+}

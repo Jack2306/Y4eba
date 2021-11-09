@@ -1,0 +1,16 @@
+p.p_1 {
+    width: 500px;
+    background-color: orange;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    line-height: 1.1em;
+    text-indent: 1%;
+}
+p.p_2 {
+    width: 500px;
+    background-color: violet;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    line-height: 1.3em;
+    text-indent: 3%;
+}
