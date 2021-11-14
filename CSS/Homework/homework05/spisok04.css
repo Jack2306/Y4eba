@@ -1,0 +1,6 @@
+ul li {
+    list-style-type: disc;
+}
+li ul li {
+    list-style-image:url(marker.png);
+}
