@@ -1,0 +1,21 @@
+thead {
+    background-color:darkslateblue ;
+    color: white;
+}
+thead td:first-child {
+    padding-left: 5px;
+}
+table, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th:nth-child(1) {
+    background-color: cornflowerblue;
+    color: white;
+    text-align-last: left ;
+    padding-left: 5px;
+}
+td {
+    width: 60px;
+    padding-left: 5px;
+}
